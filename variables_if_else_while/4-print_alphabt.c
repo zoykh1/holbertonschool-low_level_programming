@@ -1,7 +1,7 @@
 #include <stdio.h>
 
 /**
- * main - dont print q and e 
+ * main - main_fonction 
  * Return: 0
 */
 
