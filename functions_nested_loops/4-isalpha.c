@@ -1,8 +1,8 @@
 #include "main.h"
 /**
- * _isalpha - main fonc
- * @c: variable
- * Return: Always 0
+ * _isalpha - savoir si c'est une lettre
+ * @c: la variable
+ * Return: Always 0 or 1 for lowercase
  */
 
 int _isalpha(int c)
