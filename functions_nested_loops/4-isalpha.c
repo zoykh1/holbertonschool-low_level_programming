@@ -2,7 +2,7 @@
 /**
  * _isalpha - savoir si c'est une lettre
  * @c: la variable
- * Return: Always 0 or 1 for lowercase
+ * Return: Always 0
  */
 
 int _isalpha(int c)
