@@ -1,7 +1,7 @@
 #include "main.h"
 
 /**
- * print_numbers - affiche les chiffres de 0 à 9, suivis d'un retour à la ligne
+ * print_numbers - affiche les chiffres de 0 à 9
  */
 void print_numbers(void)
 {
