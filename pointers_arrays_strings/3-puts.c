@@ -1,39 +1,20 @@
 #include "main.h"
 
 /**
- * _strspn - gets the length of a prefix substring
- * @s: the string to search
- * @accept: the string containing the accepted characters
+ *_puts - uses char str as entry
+ * @str: string to be printed to stdout
  *
- * Return: the number of bytes in the initial segment of s which consist
- *			only of bytes from accept
+ * Description: prints string
  */
-unsigned int _strspn(char *s, char *accept)
+
+void _puts(char *str)
 {
-	unsigned int i = 0;
+	int i;
 
-	while (*s != '\0')
+	for (i = 0; str[i] != '\0'; i++)
 	{
-		int j = 0;
-
-		while (accept[j] != '\0')
-		{
-			if (*s == accept[j])
-			{
-				j = -1;
-				break;
-			}
-			j++;
-		}
-
-		if (j != -1)
-		{
-			break;
-		}
-
-		s++;
-		i++;
+		_putchar(str[i]);
 	}
 
-	return (i);
+	_putchar('\n');
 }
