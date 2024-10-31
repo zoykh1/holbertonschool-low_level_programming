@@ -7,5 +7,6 @@ int _strlen(char *s);
 unsigned int _strspn(char *s, char *accept);
 void _puts(char *str);
 int _putchar(char c);
+void print_rev(char *s);
 
 #endif /* MAIN_H */
