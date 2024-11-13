@@ -1,4 +1,3 @@
-README.md
 🌟 Projet de Gestion de Mémoire Dynamique 🌟
 Bienvenue dans ce projet qui explore la gestion de la mémoire dynamique en C ! Ce projet comprend plusieurs fonctions pour manipuler des tableaux et des chaînes de caractères en utilisant malloc et free.
 📁 Structure du Projet
