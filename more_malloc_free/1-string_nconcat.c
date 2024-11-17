@@ -2,12 +2,11 @@
 #include <string.h>
 
 /**
- * string_nconcat - Concatenates two strings
- * @s1: The first string
- * @s2: The second string
- * @n: The number of bytes from s2 to concatenate
- *
- * Return: Pointer to newly allocated space
+ * string_nconcat - Concatenates two strings.
+ * @s1: The first string.
+ * @s2: The second string.
+ * @n: The number of bytes from s2 to concatenate.
+ * Return: 0
  */
 char *string_nconcat(char *s1, char *s2, unsigned int n)
 {
